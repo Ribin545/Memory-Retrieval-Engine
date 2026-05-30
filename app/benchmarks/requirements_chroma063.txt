@@ -1,0 +1,5 @@
+# Canonical cleaned LongMemEval-S benchmark environment. Requires Python 3.11.9.
+chromadb==0.6.3
+posthog<3
+tqdm
+sentence-transformers

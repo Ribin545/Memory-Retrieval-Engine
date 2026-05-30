@@ -1,0 +1,51 @@
+# --- Generated / runtime data (large or ephemeral) ---
+data/dummy_large_session_history.json
+data/extracted_memories.json
+data/extracted_memories_project_recall.json
+data/chat_history.json
+data/active_memories.json
+data/judge_cache.json
+data/external/
+
+# --- ChromaDB vector stores (rebuilt from extracted_memories) ---
+data/chroma_db/
+data/chroma_project_recall_db/
+
+# --- Python artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# --- Environment ---
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.venv_benchmark_chroma063/
+
+# --- Secrets / local credentials ---
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# --- Logs, scratch, and staged deletion ---
+*.log
+outputs/**/*.log
+outputs/prompt_logs/
+outputs/raw/
+outputs/traces/
+marked_for_delete/
+archive_non_retrieval/
+.claude/
+
+# --- IDE / OS ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
