@@ -481,3 +481,7 @@ has been cleared for repo handoff.
 - No LLM reranker or reader layer is implemented.
 - Remaining top-level retrieval helpers should be migrated gradually into
   retrieval-owned modules after validation gates pass.
+
+## Development
+
+Developed with Codex.
